@@ -40,7 +40,8 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <img src="favicon/favicon-96x96.png" alt="">
-            <a class="navbar-brand" href="/">Resoluções v1.1.5</a>
+            <!-- <a class="navbar-brand" href="/">v1.1.5</a> -->
+             <small class="text-muted">v1.1.5</small>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -62,7 +63,7 @@
 
     <!-- Main Content -->
     <div class="container text-center search-container" id="searchContainer">
-        <img src="logo.png" alt="Logo Jurisprudência" class="img-fluid logo">
+        <img src="logo2.png" alt="Logo Jurisprudência" class="img-fluid logo">
         <form id="searchForm" onsubmit="handleSearch(event)">
             <div class="search-box">
                 <i class="fas fa-search"></i>
@@ -74,7 +75,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Jurisprudência. Todos os direitos reservados.</p>
+        <p>Conselho Federal de Nutrição &copy; 2025 Resoluções. Todos os direitos reservados.</p>
     </footer>
 
     <!-- Bootstrap JS -->
