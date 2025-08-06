@@ -40,7 +40,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <img src="favicon/favicon-96x96.png" alt="">
-            <a class="navbar-brand" href="/">Juris v1.1.5</a>
+            <a class="navbar-brand" href="/">Resoluções v1.1.5</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -66,7 +66,7 @@
         <form id="searchForm" onsubmit="handleSearch(event)">
             <div class="search-box">
                 <i class="fas fa-search"></i>
-                <input type="text" id="query" name="query" placeholder="Pergunte-me qualquer coisa sobre leis internas" autocomplete="off" required>
+                <input type="text" id="query" name="query" placeholder="Pergunte-me qualquer coisa sobre Resoluções do CFN" autocomplete="off" required>
             </div>
         </form>
         <div class="chat-container" id="chatContainer"></div>
