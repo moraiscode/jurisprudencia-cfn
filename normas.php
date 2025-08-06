@@ -64,6 +64,8 @@ try {
         .table-container {
             width: 90%;
             max-width: 1200px;
+            margin-top: 5%;
+            margin-bottom: 5%;
         }
         .dataTables_wrapper {
             width: 100%;
