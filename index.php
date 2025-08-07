@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jurisprudência - Chat de Suporte Jurídico</title>
-    <meta name="description" content="Explore o chat de suporte jurídico da Jurisprudência. Obtenha respostas rápidas para suas dúvidas legais e acesse informações atualizadas.">
-    <meta name="keywords" content="jurisprudência, suporte jurídico, chat legal, normas, documentos legais, consulta jurídica">
+    <title>I.A Resoluções - Chat de Suporte do CFN</title>
+    <meta name="description"
+        content="Acesse o chat inteligente de suporte às Resoluções do Conselho Federal de Nutricionistas (CFN). Encontre respostas rápidas e confiáveis sobre normas e regulamentações.">
+    <meta name="keywords"
+        content="resoluções CFN, suporte jurídico, chat CFN, normas nutricionistas, documentos CFN, consulta regulamentar">
     <meta name="author" content="xAI">
     <meta name="robots" content="index, follow">
     <meta name="language" content="pt-BR">
-    <meta property="og:title" content="Jurisprudência - Chat de Suporte Jurídico">
-    <meta property="og:description" content="Obtenha suporte jurídico rápido e eficiente com o chat da Jurisprudência. Consulte normas e documentos legais de forma prática.">
+
+    <meta property="og:title" content="I.A Resoluções - Chat de Suporte do CFN">
+    <meta property="og:description"
+        content="Chat inteligente para consulta de Resoluções do CFN. Obtenha informações normativas de forma rápida e prática.">
     <meta property="og:image" content="otg.png">
-    <meta property="og:url" content="https://easypanel.moraiscode.com/">
+    <meta property="og:url" content="https://app-jurisprudencia.bqznqa.easypanel.host">
     <meta property="og:type" content="website">
+
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Jurisprudência - Chat de Suporte Jurídico">
-    <meta name="twitter:description" content="Suporte jurídico via chat com respostas instantâneas. Acesse normas e documentos legais agora!">
+    <meta name="twitter:title" content="I.A Resoluções - Chat de Suporte do CFN">
+    <meta name="twitter:description"
+        content="Chat com inteligência artificial para suporte às Resoluções do CFN. Consulte normas com agilidade.">
     <meta name="twitter:image" content="otg.png">
 
     <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
@@ -35,27 +42,28 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <img src="favicon/favicon-96x96.png" alt="">
-            <!-- <a class="navbar-brand" href="/">v1.1.5</a> -->
-             <small class="text-muted">v1.1.5</small>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="logoia-minimal.png" alt="">
+            <small class="text-muted">v1.2.1</small>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://n8n-n8n.bqznqa.easypanel.host/form/1cffb451-34fb-44a7-99a3-5bb5ec7817ac" target="_blank"><i class="fa-solid fa-cloud-arrow-up"></i> Upload de Lei</a>
+                        <a class="nav-link"
+                            href="https://n8n-n8n.bqznqa.easypanel.host/form/1cffb451-34fb-44a7-99a3-5bb5ec7817ac"
+                            target="_blank"><i class="fa-solid fa-cloud-arrow-up"></i> Cadastro Manual</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="normas.php" target="_blank"><i class="fa-solid fa-list"></i> Lista de normas</a>
+                        <a class="nav-link" href="normas.php" target="_blank"><i class="fa-solid fa-list"></i> Lista de
+                            Resoluções</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-unlock-keyhole"></i> Admin</a>
-                    </li> -->
                 </ul>
             </div>
         </div>
@@ -63,11 +71,18 @@
 
     <!-- Main Content -->
     <div class="container text-center search-container" id="searchContainer">
-        <img src="logo2.png" alt="Logo Jurisprudência" class="img-fluid logo">
+        <img src="logo21.png" alt="Logo Jurisprudência" class="img-fluid logo">
         <form id="searchForm" onsubmit="handleSearch(event)">
             <div class="search-box">
                 <i class="fas fa-search"></i>
-                <input type="text" id="query" name="query" placeholder="Pergunte-me qualquer coisa sobre Resoluções do CFN" autocomplete="off" required>
+                <input type="text" id="query" name="query"
+                    placeholder="Pergunte-me qualquer coisa sobre Resoluções do CFN" autocomplete="off" required>
+            </div>
+            <div class="button-group mt-3">
+                <button type="button" class="btn btn-custom me-2"><i class="fa-solid fa-file-invoice"></i> Criar
+                    Parecer</button>
+                <button type="button" class="btn btn-custom"><i class="fa-solid fa-file-word"></i> Criar
+                    Documento</button>
             </div>
         </form>
         <div class="chat-container" id="chatContainer"></div>
@@ -75,7 +90,11 @@
 
     <!-- Footer -->
     <footer>
-        <p>Conselho Federal de Nutrição &copy; 2025 Resoluções. Todos os direitos reservados.</p>
+        <p>
+            <small>
+                Conselho Federal de Nutrição &copy; 2025 - I.A de Resoluções.
+            </small>
+        </p>
     </footer>
 
     <!-- Bootstrap JS -->
@@ -83,4 +102,5 @@
     <!-- Custom JS -->
     <script src="js/ia.js"></script>
 </body>
+
 </html>
