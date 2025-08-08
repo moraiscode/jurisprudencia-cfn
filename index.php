@@ -79,10 +79,13 @@
                     placeholder="Pergunte-me qualquer coisa sobre Resoluções do CFN" autocomplete="off" required>
             </div>
             <div class="button-group mt-3">
-                <button type="button" class="btn btn-custom me-2"><i class="fa-solid fa-file-invoice"></i> Criar
-                    Parecer</button>
-                <button type="button" class="btn btn-custom"><i class="fa-solid fa-file-word"></i> Criar
-                    Documento</button>
+                <a href="parecer.php" target="_blank" type="button" class="btn btn-custom me-2"><i
+                        class="fa-solid fa-file-invoice"></i> Criar
+                    Parecer</button></a>
+                <a href="parecer.php" target="_blank" type="button" class="btn btn-custom"><i
+                        class="fa-solid fa-file-word"></i> Criar
+                    Documento
+                </a>
             </div>
         </form>
         <div class="chat-container" id="chatContainer"></div>
