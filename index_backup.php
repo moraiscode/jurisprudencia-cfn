@@ -41,30 +41,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Particles.js CSS -->
-    <style>
-        #particles-js {
-            position: fixed;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: -1; /* Place particles behind content */
-        }
-        body {
-            position: relative;
-            background: transparent; /* Ensure body background doesn't interfere */
-        }
-        .container {
-            position: relative;
-            z-index: 1; /* Ensure content is above particles */
-        }
-    </style>
 </head>
 
 <body>
-    <!-- Particles.js Container -->
-    <div id="particles-js"></div>
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <img src="logoia-minimal.png" alt="">
+            <small class="text-muted">v1.2.1</small>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://n8n-n8n.bqznqa.easypanel.host/form/1cffb451-34fb-44a7-99a3-5bb5ec7817ac"
+                            target="_blank"><i class="fa-solid fa-cloud-arrow-up"></i> Cadastro Manual</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="normas.php" target="_blank"><i class="fa-solid fa-list"></i> Lista de
+                            Resoluções</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
 
     <!-- Main Content -->
     <div class="container text-center search-container" id="searchContainer">
@@ -88,23 +91,28 @@
                     <i class="fa-regular fa-rectangle-list"></i> 
                     Resoluções
                 </a>
+                <!-- <a href="parecer.php" target="_blank" type="button" class="btn btn-custom"><i
+                        class="fa-solid fa-file-word"></i> Criar
+                    Documento
+                </a> -->
             </div>
         </form>
         <div class="chat-container" id="chatContainer"></div>
     </div>
 
+    <!-- Footer -->
+    <!-- <footer>
+        <p>
+            <small>
+                Conselho Federal de Nutrição &copy; 2025 - I.A de Resoluções.
+            </small>
+        </p>
+    </footer> -->
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Particles.js -->
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <!-- Custom JS -->
     <script src="js/ia.js"></script>
-    <!-- Particles.js Config -->
-    <script>
-        particlesJS.load('particles-js', 'particles.json', function() {
-            console.log('particles.js config loaded');
-        });
-    </script>
 </body>
 
 </html>
