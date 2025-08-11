@@ -45,7 +45,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <img src="logoia-minimal.png" alt="">
             <small class="text-muted">v1.2.1</small>
@@ -67,7 +67,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- Main Content -->
     <div class="container text-center search-container" id="searchContainer">
@@ -79,9 +79,18 @@
                     placeholder="Pergunte-me qualquer coisa sobre Resoluções do CFN" autocomplete="off" required>
             </div>
             <div class="button-group mt-3">
-                <a href="parecer.php" target="_blank" type="button" class="btn btn-custom me-2"><i
-                        class="fa-solid fa-file-invoice"></i> Criar
-                    Parecer</button></a>
+                <a href="parecer.php" target="_blank" type="button" class="btn btn-custom me-2">
+                    <i class="fa-regular fa-pen-to-square"></i> 
+                    Criar Parecer
+                </a>
+                <a href="https://n8n-n8n.bqznqa.easypanel.host/form/1cffb451-34fb-44a7-99a3-5bb5ec7817ac" target="_blank" type="button" class="btn btn-custom me-2">
+                    <i class="fa-regular fa-circle-up"></i> 
+                    Upload
+                </a>
+                <a href="normas.php" target="_blank" type="button" class="btn btn-custom me-2">
+                    <i class="fa-regular fa-rectangle-list"></i> 
+                    Resoluções
+                </a>
                 <!-- <a href="parecer.php" target="_blank" type="button" class="btn btn-custom"><i
                         class="fa-solid fa-file-word"></i> Criar
                     Documento
@@ -92,13 +101,13 @@
     </div>
 
     <!-- Footer -->
-    <footer>
+    <!-- <footer>
         <p>
             <small>
                 Conselho Federal de Nutrição &copy; 2025 - I.A de Resoluções.
             </small>
         </p>
-    </footer>
+    </footer> -->
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
