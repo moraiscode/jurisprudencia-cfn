@@ -82,10 +82,10 @@
                 <a href="parecer.php" target="_blank" type="button" class="btn btn-custom me-2"><i
                         class="fa-solid fa-file-invoice"></i> Criar
                     Parecer</button></a>
-                <a href="parecer.php" target="_blank" type="button" class="btn btn-custom"><i
+                <!-- <a href="parecer.php" target="_blank" type="button" class="btn btn-custom"><i
                         class="fa-solid fa-file-word"></i> Criar
                     Documento
-                </a>
+                </a> -->
             </div>
         </form>
         <div class="chat-container" id="chatContainer"></div>
