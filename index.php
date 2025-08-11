@@ -81,7 +81,7 @@
             <div class="button-group mt-3">
                 <a href="parecer.php" target="_blank" type="button" class="btn btn-custom me-2">
                     <i class="fa-regular fa-pen-to-square"></i> 
-                    Criar Parecer
+                    Parecer
                 </a>
                 <a href="https://n8n-n8n.bqznqa.easypanel.host/form/1cffb451-34fb-44a7-99a3-5bb5ec7817ac" target="_blank" type="button" class="btn btn-custom me-2">
                     <i class="fa-regular fa-circle-up"></i> 
